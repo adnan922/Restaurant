@@ -3,7 +3,7 @@
 
 A modern, elegant, and fully responsive restaurant website built with **Next.js 14+ (App Router)** and **Tailwind CSS**. Designed to showcase premium dining experiences, expansive catering services, and seamless reservation inquiries.
 
-## ✨ Features
+## Features
 
 * **Next.js App Router:** Utilizes the latest Next.js routing features for fast, server-rendered pages and nested layouts.
 * **Fully Responsive Design:** Flawless layout scaling across mobile, tablet, and desktop screens using Tailwind CSS.
