@@ -18,7 +18,7 @@ export default function BusinessPartyPage() {
       <section className="py-20 max-w-4xl mx-auto px-4 text-center">
         <h2 className="font-playfair text-3xl font-bold text-amber-600 mb-6">Impress Your Clients and Partners</h2>
         <p className="text-zinc-600 mb-10 leading-relaxed text-lg">
-          When hosting clients, stakeholders, or VIP guests, flawless execution is non-negotiable. Ricky's Restaurant provides premium business party catering that reflects the professionalism and high standards of your company. From elegant canapés to formal sit-down dinners, our impeccable service ensures a sophisticated and seamless networking environment.
+          When hosting clients, stakeholders, or VIP guests, flawless execution is non-negotiable.  Restaurant provides premium business party catering that reflects the professionalism and high standards of your company. From elegant canapés to formal sit-down dinners, our impeccable service ensures a sophisticated and seamless networking environment.
         </p>
         <Link href="/contact" className="inline-block bg-amber-600 text-white font-medium px-10 py-4 rounded shadow-lg hover:bg-amber-700 hover:-translate-y-1 transition-all duration-300">
           Request a Corporate Quote

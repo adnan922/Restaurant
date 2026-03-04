@@ -39,10 +39,10 @@ export default function PrivateCateringPage() {
         </h2>
         <div className="space-y-6 text-zinc-600 leading-relaxed text-sm md:text-base">
           <p>
-            Ricky's Restaurant offers customized private catering services in Dubai. We cater to groups of all sizes, from small and intimate gatherings to large lavish parties. With amazing food, unique presentation, and excellent service, our team of professionals will create a memorable experience for you and your guests.
+             Restaurant offers customized private catering services in Dubai. We cater to groups of all sizes, from small and intimate gatherings to large lavish parties. With amazing food, unique presentation, and excellent service, our team of professionals will create a memorable experience for you and your guests.
           </p>
           <p>
-            Whether you need private catering services for an intimate gathering or a large event, Ricky's Restaurant is your perfect choice. We make your special moments memorable by delivering exceptional culinary experiences and outstanding service. We take away all the stress so you can focus on enjoying your occasion and creating wonderful memories at Ricky's Restaurant.
+            Whether you need private catering services for an intimate gathering or a large event,  Restaurant is your perfect choice. We make your special moments memorable by delivering exceptional culinary experiences and outstanding service. We take away all the stress so you can focus on enjoying your occasion and creating wonderful memories at  Restaurant.
           </p>
         </div>
       </section>
@@ -88,11 +88,11 @@ export default function PrivateCateringPage() {
                 Professional Catering Services In Dubai
               </h3>
               <p className="text-zinc-600 mb-6 text-sm md:text-base leading-relaxed">
-                When it comes to professional catering services in Dubai, taste and dedication matter most. Ricky's Restaurant has been at the forefront of professional catering in Dubai. 
+                When it comes to professional catering services in Dubai, taste and dedication matter most.  Restaurant has been at the forefront of professional catering in Dubai. 
               </p>
               
               <div className="mb-8">
-                <h4 className="font-bold text-zinc-900 mb-4">Private Events Catering | Ricky's Restaurant</h4>
+                <h4 className="font-bold text-zinc-900 mb-4">Private Events Catering |  Restaurant</h4>
                 <ul className="space-y-2">
                   {['Planning', 'Managing', 'Delegating', 'Executing'].map((item, idx) => (
                     <li key={idx} className="flex items-center text-zinc-600 text-sm">

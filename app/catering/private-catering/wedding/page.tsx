@@ -17,7 +17,7 @@ export default function WeddingCateringPage() {
       <section className="py-20 max-w-4xl mx-auto px-4 text-center">
         <h2 className="font-playfair text-3xl font-bold text-amber-600 mb-6">Make Your Big Day Unforgettable</h2>
         <p className="text-zinc-600 mb-10 leading-relaxed text-lg">
-          Your wedding day is one of the most important days of your life. At Ricky's Restaurant, we provide elegant, customized wedding catering services in Dubai. From intimate receptions to grand celebrations, our culinary team will craft a menu that perfectly reflects your love story, ensuring your guests enjoy a dining experience they will never forget.
+          Your wedding day is one of the most important days of your life. At  Restaurant, we provide elegant, customized wedding catering services in Dubai. From intimate receptions to grand celebrations, our culinary team will craft a menu that perfectly reflects your love story, ensuring your guests enjoy a dining experience they will never forget.
         </p>
         <Link href="/contact" className="inline-block bg-amber-600 text-white font-medium px-10 py-4 rounded shadow-lg hover:bg-amber-700 hover:-translate-y-1 transition-all duration-300">
           Plan Your Wedding Menu

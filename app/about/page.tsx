@@ -77,21 +77,21 @@ export default function AboutPage() {
             <div>
               <h4 className="font-playfair font-bold text-xl text-zinc-900 mb-3">Commitment to Excellence</h4>
               <p className="text-zinc-600 leading-relaxed text-sm md:text-base">
-                At Ricky's Restaurant, we are committed to maintaining the highest standards in everything we do. From the freshness of our ingredients to the elegance of our presentation and the attentiveness of our service, we aim to exceed your expectations every time you visit.
+                At  Restaurant, we are committed to maintaining the highest standards in everything we do. From the freshness of our ingredients to the elegance of our presentation and the attentiveness of our service, we aim to exceed your expectations every time you visit.
               </p>
             </div>
 
             <div>
               <h4 className="font-playfair font-bold text-xl text-zinc-900 mb-3">Visit Us</h4>
               <p className="text-zinc-600 leading-relaxed text-sm md:text-base">
-                Join us at Ricky's Restaurant and discover why we are a favorite among Dubai's dining enthusiasts. Whether you're looking for a casual meal with friends, a romantic dinner, or a place to celebrate a special occasion, Ricky's Restaurant is the perfect choice. Come and experience the best of culinary artistry and hospitality in a setting that feels like home.
+                Join us at  Restaurant and discover why we are a favorite among Dubai's dining enthusiasts. Whether you're looking for a casual meal with friends, a romantic dinner, or a place to celebrate a special occasion,  Restaurant is the perfect choice. Come and experience the best of culinary artistry and hospitality in a setting that feels like home.
               </p>
             </div>
           </div>
 
           <div className="mt-16 pt-8 border-t border-zinc-100">
             <p className="font-playfair text-lg text-amber-700 italic">
-              Thank you for choosing Ricky's Restaurant. We look forward to serving you soon!
+              Thank you for choosing  Restaurant. We look forward to serving you soon!
             </p>
           </div>
 

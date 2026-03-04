@@ -17,7 +17,7 @@ export default function BirthdayCateringPage() {
       <section className="py-20 max-w-4xl mx-auto px-4 text-center">
         <h2 className="font-playfair text-3xl font-bold text-amber-600 mb-6">A Feast for Your Special Day</h2>
         <p className="text-zinc-600 mb-10 leading-relaxed text-lg">
-          Turn your birthday party into a culinary extravaganza! From casual buffets and live grill stations to elegant multi-course dinners, Ricky's Restaurant provides flexible birthday catering packages tailored to your theme and guest list.
+          Turn your birthday party into a culinary extravaganza! From casual buffets and live grill stations to elegant multi-course dinners,  Restaurant provides flexible birthday catering packages tailored to your theme and guest list.
         </p>
         <Link href="/contact" className="inline-block bg-amber-600 text-white font-medium px-10 py-4 rounded shadow-lg hover:bg-amber-700 hover:-translate-y-1 transition-all duration-300">
           Book Your Birthday Catering

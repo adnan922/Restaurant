@@ -38,13 +38,13 @@ export default function CorporateCateringPage() {
         </h2>
         <div className="space-y-6 text-zinc-600 leading-relaxed text-sm md:text-base">
           <p>
-            Ricky's Restaurant Catering is recognized as one of the premier corporate catering service providers in Dubai. With a wealth of experience, we pride ourselves on delivering outstanding catering services tailored specifically to meet your corporate event needs.
+             Restaurant Catering is recognized as one of the premier corporate catering service providers in Dubai. With a wealth of experience, we pride ourselves on delivering outstanding catering services tailored specifically to meet your corporate event needs.
           </p>
           <p>
             Our corporate catering covers everything from small office meetings and business lunches to large corporate seminars and annual company gatherings. We understand the importance of making a lasting impression on your clients and colleagues, which is why we offer a diverse menu selection that can be customized to suit any dietary requirement and preference.
           </p>
           <p className="font-medium text-zinc-800">
-            Ricky's Restaurant Catering is your top choice for exceptional professional corporate catering in Dubai, ensuring your next corporate event is a resounding success.
+             Restaurant Catering is your top choice for exceptional professional corporate catering in Dubai, ensuring your next corporate event is a resounding success.
           </p>
         </div>
       </section>
@@ -91,7 +91,7 @@ export default function CorporateCateringPage() {
               
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-bold text-zinc-900 mb-2">Why Choose Ricky's Restaurant Catering?</h4>
+                  <h4 className="font-bold text-zinc-900 mb-2">Why Choose  Restaurant Catering?</h4>
                   <p className="text-zinc-600 text-sm leading-relaxed">We understand that planning a corporate event can be stressful. Our experienced team will handle all the catering details, so you can focus on the business at hand.</p>
                 </div>
 
@@ -107,7 +107,7 @@ export default function CorporateCateringPage() {
 
                 <div>
                   <h4 className="font-bold text-zinc-900 mb-2">Versatile Corporate Catering Services</h4>
-                  <p className="text-zinc-600 text-sm leading-relaxed">Ricky's Restaurant Catering offers a range of services from drop-off packages to fully staffed events. Whether you're hosting 20 or 500 people, we have the experience to handle proficiency.</p>
+                  <p className="text-zinc-600 text-sm leading-relaxed"> Restaurant Catering offers a range of services from drop-off packages to fully staffed events. Whether you're hosting 20 or 500 people, we have the experience to handle proficiency.</p>
                 </div>
 
                 <div>
