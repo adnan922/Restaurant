@@ -10,7 +10,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 z-0">
           <Image 
             src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2000&auto=format&fit=crop" 
-            alt="Contact Ricky's Restaurant" 
+            alt="Contact Restaurant" 
             fill 
             className="object-cover"
             priority

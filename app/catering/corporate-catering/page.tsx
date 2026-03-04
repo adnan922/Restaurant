@@ -4,7 +4,7 @@ import Link from 'next/link';
 // Array for corporate services based on the screenshot
 const corporateServices = [
   { title: "STAFF PARTIES", img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=600&auto=format&fit=crop", link: "/catering/corporate-catering/staff-parties" },
-  { title: "BUSINESS PARTY CATERING", img: "https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=600&auto=format&fit=crop", link: "/catering/corporate-catering/business-party" },
+  { title: "BUSINESS PARTY CATERING", img: "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1200&auto=format&fit=crop", link: "/catering/corporate-catering/business-party" },
 ];
 
 export default function CorporateCateringPage() {

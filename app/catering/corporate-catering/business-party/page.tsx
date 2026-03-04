@@ -7,7 +7,7 @@ export default function BusinessPartyPage() {
       <section className="relative h-[40vh] min-h-[350px] flex items-center justify-center text-center mt-20">
         <div className="absolute inset-0 z-0">
           {/* Using a formal networking/business dinner image */}
-          <Image src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=2000&auto=format&fit=crop" alt="Business Party Catering Dubai" fill className="object-cover" priority />
+          <Image src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1200&auto=format&fit=crop" alt="Business Party Catering Dubai" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-amber-900/50 mix-blend-multiply"></div>
         </div>
         <div className="relative z-10 px-4 text-white">

@@ -4,8 +4,8 @@ import Link from 'next/link';
 // Array of the sub-services (Kids, Staff, and Yacht removed for now)
 const privateServices = [
   { title: "WEDDING CATERING", img: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=600&auto=format&fit=crop", link: "/catering/private-catering/wedding" },
-  { title: "SPECIAL OCCASION", img: "https://images.unsplash.com/photo-1530103862676-de889caefce3?q=80&w=600&auto=format&fit=crop", link: "/catering/private-catering/special-occasion" },
-  { title: "BIRTHDAY PARTY CATERING", img: "https://images.unsplash.com/photo-1530103043960-53a9af4711f1?q=80&w=600&auto=format&fit=crop", link: "/catering/private-catering/birthday" },
+  { title: "SPECIAL OCCASION", img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop", link: "/catering/private-catering/special-occasion" },
+  { title: "BIRTHDAY PARTY CATERING", img: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=1200&auto=format&fit=crop", link: "/catering/private-catering/birthday" },
 ];
 
 export default function PrivateCateringPage() {
@@ -16,7 +16,7 @@ export default function PrivateCateringPage() {
       <section className="relative h-[40vh] min-h-[350px] flex items-center justify-center text-center mt-20">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://images.unsplash.com/photo-1555244162-803834f87a33?q=80&w=2000&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1581796085954-d5be6daa44d4?q=80&w=2000&auto=format&fit=crop" 
             alt="Private Events Catering Buffet" 
             fill 
             className="object-cover"

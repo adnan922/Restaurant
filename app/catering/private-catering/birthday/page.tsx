@@ -6,7 +6,7 @@ export default function BirthdayCateringPage() {
     <div className="flex flex-col min-h-screen bg-white">
       <section className="relative h-[40vh] min-h-[350px] flex items-center justify-center text-center mt-20">
         <div className="absolute inset-0 z-0">
-          <Image src="https://images.unsplash.com/photo-1530103043960-53a9af4711f1?q=80&w=2000&auto=format&fit=crop" alt="Birthday Party Catering" fill className="object-cover" priority />
+          <Image src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=1200&auto=format&fit=crop" alt="Birthday Party Catering" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-amber-900/50 mix-blend-multiply"></div>
         </div>
         <div className="relative z-10 px-4 text-white">

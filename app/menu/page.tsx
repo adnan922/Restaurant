@@ -4,16 +4,16 @@ import Link from 'next/link';
 // Sample data structure to make editing the menu easy!
 const menuCategories = [
   {
-    category: "Ricky's Grill Feast",
+    category: "Grill Feast",
     items: [
       { name: "Caesar Salad", desc: "Crisp romaine lettuce tossed with creamy Caesar dressing, Parmesan cheese, and homemade croutons.", img: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?q=80&w=400&auto=format&fit=crop" },
-      { name: "Hummus", desc: "Smooth and savory chickpea hummus, drizzled with extra virgin olive oil, and served with warm pita.", img: "https://images.unsplash.com/photo-1577713437190-7d351336c1e9?q=80&w=400&auto=format&fit=crop" },
+      { name: "Hummus", desc: "Smooth and savory chickpea hummus, drizzled with extra virgin olive oil, and served with warm pita.", img: "https://images.unsplash.com/photo-1637949385162-e416fb15b2ce?q=80&w=400&auto=format&fit=crop" },
       { name: "Tahina", desc: "Rich and velvety tahini sauce made with sesame paste, garlic, lemon juice, and a hint of olive oil.", img: "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?q=80&w=400&auto=format&fit=crop" },
       { name: "Mutton Kofta (Seekh Kabab)", desc: "Juicy mutton seekh kebabs, expertly seasoned with aromatic spices and grilled to perfection.", img: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=400&auto=format&fit=crop" },
     ]
   },
   {
-    category: "Ricky's Grill Paradise",
+    category: "Grill Paradise",
     items: [
       { name: "Chicken Skewers", desc: "Tender chicken skewers marinated in a flavorful blend of spices, grilled to juicy perfection.", img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=400&auto=format&fit=crop" },
       { name: "Grilled Chicken Bone", desc: "Grilled chicken bone-in, seasoned to perfection and bursting with savory flavor.", img: "https://images.unsplash.com/photo-1598514982205-f36b96d1e8d4?q=80&w=400&auto=format&fit=crop" },
