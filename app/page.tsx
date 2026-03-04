@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from "next/link";
+import FadeIn from '../components/FadeIn';
 import { Clock, Users, Utensils } from 'lucide-react';
 
 const services = [
@@ -52,7 +53,7 @@ export default function Home() {
           />
         </div>
         <div className="relative z-10 px-4 max-w-4xl mx-auto text-white">
-          <h2 className="text-amber-500 font-medium tracking-widest uppercase mb-4 drop-shadow-sm">Welcome to Nova Dining</h2>
+          <h2 className="text-amber-500 font-medium tracking-widest uppercase mb-4 drop-shadow-sm">Welcome to ️Restaurant</h2>
           <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 drop-shadow-md">Eat What Makes You Happy</h1>
           <p className="text-lg md:text-xl text-zinc-200 mb-8 max-w-2xl mx-auto drop-shadow">
             Experience the finest spices and professional catering services in Dubai.
@@ -71,92 +72,138 @@ export default function Home() {
       </section>
 
       {/* About Us */}
-      <section id="about" className="py-20 bg-white">
+      <section id="about" className="py-20 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-amber-600 font-bold tracking-wider uppercase mb-2">About Us</h3>
-              <h2 className="font-playfair text-4xl md:text-5xl font-bold text-zinc-900 mb-6">Get the food that makes you drool!</h2>
-              <p className="text-zinc-600 leading-relaxed mb-6 text-lg">
-                Nova Dining is one of the finest restaurants to dine-in with the best combination of spices according to your taste. Our professional staff is at your service with food delivery, event catering, and other exceptional services.
-              </p>
-              
-              <div className="grid grid-cols-3 gap-6 mt-10 border-t pt-8 border-zinc-100">
-                <div className="text-center flex flex-col items-center">
-                  <Clock className="w-6 h-6 text-amber-500 mb-3" />
-                  <div className="text-3xl md:text-4xl font-playfair font-bold text-zinc-900 mb-1">15+</div>
-                  <div className="text-xs sm:text-sm text-zinc-500 uppercase font-medium">Years Exp.</div>
-                </div>
-                <div className="text-center flex flex-col items-center">
-                  <Users className="w-6 h-6 text-amber-500 mb-3" />
-                  <div className="text-3xl md:text-4xl font-playfair font-bold text-zinc-900 mb-1">20+</div>
-                  <div className="text-xs sm:text-sm text-zinc-500 uppercase font-medium">Trained Chefs</div>
-                </div>
-                <div className="text-center flex flex-col items-center">
-                  <Utensils className="w-6 h-6 text-amber-500 mb-3" />
-                  <div className="text-3xl md:text-4xl font-playfair font-bold text-zinc-900 mb-1">50+</div>
-                  <div className="text-xs sm:text-sm text-zinc-500 uppercase font-medium">Stunning Dishes</div>
+
+            {/* Left Side - Fade From Left */}
+            <FadeIn direction="left">
+              <div>
+                <h3 className="text-amber-600 font-bold tracking-wider uppercase mb-2">
+                  About Us
+                </h3>
+
+                <h2 className="font-playfair text-4xl md:text-5xl font-bold text-zinc-900 mb-6">
+                  Get the food that makes you drool!
+                </h2>
+
+                <p className="text-zinc-600 leading-relaxed mb-6 text-lg">
+                  Restaurant is one of the finest restaurants to dine-in with the best combination of spices according to your taste. Our professional staff is at your service with food delivery, event catering, and other exceptional services.
+                </p>
+
+                <div className="grid grid-cols-3 gap-6 mt-10 border-t pt-8 border-zinc-100">
+                  <div className="text-center flex flex-col items-center">
+                    <Clock className="w-6 h-6 text-amber-500 mb-3" />
+                    <div className="text-3xl md:text-4xl font-playfair font-bold text-zinc-900 mb-1">
+                      15+
+                    </div>
+                    <div className="text-xs sm:text-sm text-zinc-500 uppercase font-medium">
+                      Years Exp.
+                    </div>
+                  </div>
+
+                  <div className="text-center flex flex-col items-center">
+                    <Users className="w-6 h-6 text-amber-500 mb-3" />
+                    <div className="text-3xl md:text-4xl font-playfair font-bold text-zinc-900 mb-1">
+                      20+
+                    </div>
+                    <div className="text-xs sm:text-sm text-zinc-500 uppercase font-medium">
+                      Trained Chefs
+                    </div>
+                  </div>
+
+                  <div className="text-center flex flex-col items-center">
+                    <Utensils className="w-6 h-6 text-amber-500 mb-3" />
+                    <div className="text-3xl md:text-4xl font-playfair font-bold text-zinc-900 mb-1">
+                      50+
+                    </div>
+                    <div className="text-xs sm:text-sm text-zinc-500 uppercase font-medium">
+                      Stunning Dishes
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-               <Image 
-                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1000&auto=format&fit=crop" 
-                  alt="Delicious food platter" 
-                  fill 
+            </FadeIn>
+
+            {/* Right Side - Fade From Right */}
+            <FadeIn direction="right" delay={0.2}>
+              <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1000&auto=format&fit=crop"
+                  alt="Delicious food platter"
+                  fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-cover hover:scale-105 transition duration-700" 
-               />
-            </div>
+                  className="object-cover hover:scale-105 transition duration-700"
+                />
+              </div>
+            </FadeIn>
+
           </div>
         </div>
       </section>
 
       {/* Catering Services */}
-      <section id="catering" className="py-20 bg-zinc-50">
+      <section id="catering" className="py-20 bg-zinc-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           
-          <h3 className="text-amber-600 font-bold tracking-wider uppercase mb-2">
-            Catering Services
-          </h3>
+          {/* Heading Fade Up */}
+          <FadeIn direction="up">
+            <>
+              <h3 className="text-amber-600 font-bold tracking-wider uppercase mb-2">
+                Catering Services
+              </h3>
 
-          <h2 className="font-playfair text-4xl font-bold text-zinc-900 mb-6">
-            Organising Private & Corporate Parties
-          </h2>
+              <h2 className="font-playfair text-4xl font-bold text-zinc-900 mb-6">
+                Organising Private & Corporate Parties
+              </h2>
 
-          <p className="text-zinc-600 max-w-3xl mx-auto mb-12">
-            Are you planning a private party, birthday, small or large event, wedding,
-            or outdoor food catering? Treat your friends and clients with the best
-            food available in Dubai.
-          </p>
+              <p className="text-zinc-600 max-w-3xl mx-auto mb-12">
+                Are you planning a private party, birthday, small or large event, wedding,
+                or outdoor food catering? Treat your friends and clients with the best
+                food available in Dubai.
+              </p>
+            </>
+          </FadeIn>
 
+          {/* Cards Grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
             {services.map((service, index) => (
-              <Link 
-                href={service.link}
-                key={index}
-                className="bg-white rounded-xl shadow-sm hover:shadow-xl transition duration-300 overflow-hidden group block"
-              >
-                <div className="relative h-56 w-full">
+              <FadeIn key={index} direction="up" delay={index * 0.15}>
+                <Link 
+                  href={service.link}
+                  className="relative h-80 rounded-2xl overflow-hidden group block shadow-md hover:shadow-2xl transition-shadow duration-500"
+                >
+                  {/* Background Image */}
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition duration-500"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                </div>
 
-                <div className="p-6 text-center">
-                  <h4 className="font-playfair text-xl font-bold mb-2 text-zinc-900 group-hover:text-amber-600 transition-colors">
-                    {service.title}
-                  </h4>
-                  <p className="text-zinc-500 text-sm">
-                    Professional and seamless service tailored exactly to your event needs.
-                  </p>
-                </div>
-              </Link>
+                  {/* Glassmorphism Overlay */}
+                  <div className="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                  {/* Content Container */}
+                  <div className="absolute inset-0 p-6 flex flex-col justify-end translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                    
+                    <h4 className="font-playfair text-2xl font-bold text-white drop-shadow-lg mb-2 transition-transform duration-500">
+                      {service.title}
+                    </h4>
+                    
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                      <p className="text-zinc-200 text-sm mb-5 leading-relaxed">
+                        Professional and seamless service tailored exactly to your event needs. Let us make it unforgettable.
+                      </p>
+                      <span className="inline-block bg-amber-600 text-white text-sm font-medium px-6 py-2.5 rounded-full hover:bg-amber-500 transition-colors shadow-lg">
+                        Explore Service
+                      </span>
+                    </div>
+
+                  </div>
+                </Link>
+              </FadeIn>
             ))}
           </div>
 
