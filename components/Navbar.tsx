@@ -48,13 +48,24 @@ export default function Navbar() {
             <Link href="/menu" className={`transition-colors duration-300 hover:text-amber-500 ${isScrolled ? 'text-zinc-700' : 'text-white/90'}`}>Menu</Link>
             
             {/* Catering Dropdown */}
-            <div className="relative group cursor-pointer">
+            <div className="relative group cursor-pointer py-2">
               <span className={`flex items-center transition-colors duration-300 hover:text-amber-500 ${isScrolled ? 'text-zinc-700' : 'text-white/90'}`}>
                 Catering <ChevronDown className="w-4 h-4 ml-1" />
               </span>
-              <div className="absolute top-full left-0 hidden group-hover:block bg-white shadow-xl p-4 rounded-lg min-w-[200px] border border-zinc-100 transform opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
-                <Link href="/catering/private-catering" className="block py-2 text-zinc-600 hover:text-amber-600 transition-colors">Private Catering</Link>
-                <Link href="/catering/corporate-catering" className="block py-2 text-zinc-600 hover:text-amber-600 transition-colors">Corporate Catering</Link>
+              
+              {/* Invisible padding bridge container */}
+              <div className="absolute top-full left-0 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 pt-4">
+                
+                {/* The actual visible menu box */}
+                <div className="bg-white shadow-xl p-4 rounded-lg min-w-[200px] border border-zinc-100">
+                  <Link href="/catering/private-catering" className="block py-2 text-zinc-600 hover:text-amber-600 transition-colors">
+                    Private Catering
+                  </Link>
+                  <Link href="/catering/corporate-catering" className="block py-2 text-zinc-600 hover:text-amber-600 transition-colors">
+                    Corporate Catering
+                  </Link>
+                </div>
+
               </div>
             </div>
             
